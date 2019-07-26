@@ -4,13 +4,17 @@
   "description": "A Yeoman generator for Garmin Connect IQ projects.",
   "files": [
     "generators"
-  ],  
+  ],
   "keywords": [
     "yeoman-generator"
   ],
   "author": "Mark Johnson",
   "license": "MIT",
   "dependencies": {
+    "babel-eslint": "^10.0.2",
     "yeoman-generator": "4.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.1.0"
   }
 }
